@@ -3,109 +3,84 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css">
   <link rel="icon" type="image/png" href="logo.webp">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Trilha Hub Cultural</title>
-
+  <title>Trilha Hub Cultural - Apoie a Reconstrução</title>
 </head>
 
 <body>
   <header>
     <div class="imagem-logo">
-      <img src="logo.webp" alt="logo do trilha hub cultural">
+      <img src="logo.webp" alt="Logo do Trilha Hub Cultural">
     </div>
-
   </header>
+
   <main>
     <section class="resumo">
-      <p>O fogo destruiu nossos equipamentos, mas a nossa história continua.
-
-      <p>O incêndio do dia 8 de julho destruiu nossa sede e os recursos que mantinham vivos nossos projetos culturais e
-        comunitários.
-      <p>
-
-      <p>Para recomeçar e reerguer esse espaço, iniciamos uma campanha de arrecadação emergencial. Você pode nos apoiar
-        doando via PIX, participando da nossa rifa solidária ou marcando presença nos nossos eventos beneficentes.</p>
-
-      <p><strong>Clique nas imagens abaixo e confira os detalhes de cada ação e faça parte dessa reconstrução</strong>
-      </p>
+      <p>O fogo destruiu nossos equipamentos, mas a nossa história continua.</p>
+      <p>O incêndio do dia 8 de julho destruiu nossa sede e os recursos que mantinham vivos nossos projetos culturais e comunitários.</p>
+      <p>Para recomeçar e reerguer esse espaço, iniciamos uma campanha de arrecadação emergencial. Você pode nos apoiar doando via PIX, participando da nossa rifa solidária ou marcando presença nos nossos eventos beneficentes.</p>
+      <p><strong>Clique nas imagens abaixo, confira os detalhes de cada ação e faça parte dessa reconstrução.</strong></p>
     </section>
+
     <section class="conteudo">
-
       <section class="pixrifa">
+        <div class="pix-card">
+          <img src="vaquinha.webp" alt="Campanha PIX Solidário Trilha Hub">
+          <div class="pix-container">
+            <input type="text" value="sostrilhahub@gmail.com" readonly class="input-pix">
+            <button class="botao-copiar-pix" onclick="copiarChavePix(this, 'sostrilhahub@gmail.com')">
+              <span>Copiar Chave PIX</span>
+            </button>
+          </div>
+        </div>
 
-        <div class="pix">
-        <a href="">
-          <img src="vaquinha.webp" alt="">
-        </a>
-        <div class="pix-container">
-          <input type="text" id="chavePix" value="sostrilhahub@gmail.com" readonly>
-          <button id="botaoCopiarPix" onclick="copiarChavePix()">
-            <span id="textoBotao">Copiar Chave PIX</span>
-          </button>
-        </div>
-        </div>
-        <a
-          href="https://app.riffas.com.br/rifa/rifa-solidaria-a-guitarra-do-rock-pela-reconstrucao-do-trilha-hub-cultural-xmsu8z">
-          <img src="rifa.webp" alt="">
+        <a href="https://app.riffas.com.br/rifa/rifa-solidaria-a-guitarra-do-rock-pela-reconstrucao-do-trilha-hub-cultural-xmsu8z" target="_blank" rel="noopener noreferrer">
+          <img src="rifa.webp" alt="Rifa solidária da guitarra autografada do Rock">
         </a>
       </section>
+
       <section class="eventos">
         <h2>Próximos Eventos</h2>
         <div class="cartazes">
-          <div cartaz1>
-          <a href="https://www.instagram.com/bandasindependenteslocais/reel/DbmE-5zpvZC/">
-            <img src="cartaz5.webp" alt="">
+          <a href="https://www.instagram.com/bandasindependenteslocais/reel/DbmE-5zpvZC/" target="_blank" rel="noopener noreferrer">
+            <img src="cartaz5.webp" alt="Cartaz S.O.S Trilha Edição 3">
           </a>
-          <div class="pix-container">
-          <input type="text" id="chavePix" value="sostrilhahub@gmail.com" readonly>
-          <button id="botaoCopiarPix" onclick="copiarChavePix()">
-            <span id="textoBotao">Copiar Chave PIX</span>
-          </button>
-           
-            <a href="https://www.google.com.br/search?q=R.+Ant%C3%B4nio+Ficagna,+161+-+F%C3%A1tima,+Canoas+-+RS,+92200-690&shem=epsd1,rimspwouoe&shndl=40&source=sh/x/loc/geo/m1/1&kgs=c594736430b94302&utm_source=epsd1,rimspwouoe,sh/x/loc/geo/m1/1">
-            </a>
-          
-          </div>
+          <a href="https://www.instagram.com/trilhahubcultural/p/DbWiblCBMAA/" target="_blank" rel="noopener noreferrer">
+            <img src="cartaz4.webp" alt="Cartaz S.O.S Trilha Edição 2">
+          </a>
+          <a href="https://www.instagram.com/caospoa/p/DbbsdjyqVoV/" target="_blank" rel="noopener noreferrer">
+            <img src="cartaz3.webp" alt="Cartaz S.O.S Trilha com Bandas">
+          </a>
+          <a href="https://www.instagram.com/estudioturtle/p/DbBkpHePlZg/" target="_blank" rel="noopener noreferrer">
+            <img src="cartaz2.webp" alt="Cartaz S.O.S Trilha Edição 1">
+          </a>
+          <a href="https://www.instagram.com/p/DbBiwhWqrlP/" target="_blank" rel="noopener noreferrer">
+            <img src="cartaz1.webp" alt="Cartaz Fresh Fetus Fest">
+          </a>
         </div>
-          
-          <a href="https://www.instagram.com/trilhahubcultural/p/DbWiblCBMAA/">
-            <img src="cartaz4.webp" alt="">
-          </a>
-
-          <a href="https://www.instagram.com/caospoa/p/DbbsdjyqVoV/">
-            <img src="cartaz3.webp" alt="">
-          </a>
-          <a href="https://www.instagram.com/estudioturtle/p/DbBkpHePlZg/">
-            <img src="cartaz2.webp" alt="">
-          </a>
       </section>
-
     </section>
   </main>
 
   <footer class="footer">
     <div class="footer-conteudo">
-
-
       <div class="footer-infos">
         <h3>Trilha Hub Cultural</h3>
-
         <address>
           <p>Av. Leônidas de Souza, 891 - Três Portos</p>
           <p>Sapucaia do Sul - RS, 93210-140</p>
         </address>
-
         <div class="footer-contatos">
           <a href="https://wa.me/555196506622" target="_blank" rel="noopener noreferrer" class="whatsapp-botao">
-            <span>💬 Fale conosco no WhatsApp</span></a>
-          <a href="https://www.instagram.com/trilhahubcultural/" target="_blank" rel="noopener noreferrer"
-            class="instagram-botao">
-            <span>📷 Acesse nosso instagram</span></a>
+            <span>💬 Fale conosco no WhatsApp</span>
+          </a>
+          <a href="https://www.instagram.com/trilhahubcultural/" target="_blank" rel="noopener noreferrer" class="instagram-botao">
+            <span>📷 Acesse nosso Instagram</span>
+          </a>
         </div>
       </div>
-
 
       <div class="footer-mapa">
         <iframe
@@ -113,42 +88,29 @@
           style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin">
         </iframe>
       </div>
-
     </div>
 
     <div class="footer-direitos">
       <p>&copy; 2017-2026 Trilha Hub Cultural. Todos os direitos reservados.</p>
     </div>
   </footer>
+
+  <script>
+    function copiarChavePix(botao, chave) {
+      const textoSpan = botao.querySelector('span');
+
+      navigator.clipboard.writeText(chave).then(() => {
+        textoSpan.textContent = "Chave Copiada! ✓";
+        botao.classList.add("sucesso");
+
+        setTimeout(() => {
+          textoSpan.textContent = "Copiar Chave PIX";
+          botao.classList.remove("sucesso");
+        }, 2500);
+      }).catch(() => {
+        textoSpan.textContent = "Erro ao copiar";
+      });
+    }
+  </script>
 </body>
-<script>
-  function copiarChavePix() {
-  const chave = document.getElementById("chavePix").value;
-  const botao = document.getElementById("botaoCopiarPix");
-  const texto = document.getElementById("textoBotao");
-
-  navigator.clipboard.writeText(chave).then(() => {
-    texto.textContent = "Chave Copiada! ✓";
-    botao.classList.add("sucesso");
-
-    setTimeout(() => {
-      texto.textContent = "Copiar Chave PIX";
-      botao.classList.remove("sucesso");
-    }, 2500);
-  }).catch(() => {
-    const input = document.getElementById("chavePix");
-    input.select();
-    document.execCommand("copy");
-    
-    texto.textContent = "Chave Copiada! ✓";
-    botao.classList.add("sucesso");
-
-    setTimeout(() => {
-      texto.textContent = "Copiar Chave PIX";
-      botao.classList.remove("sucesso");
-    }, 2500);
-  });
-}
-</script>
-
 </html>
